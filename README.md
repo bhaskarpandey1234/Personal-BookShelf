@@ -1,70 +1,92 @@
-# Getting Started with Create React App
+# Book Search and Bookshelf Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a simple React-based application that allows users to search for books and add them to their bookshelf. The application fetches book data from an external API and stores the user's bookshelf in local storage.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Features](#features)
+- [Screenshots](#screenshots)
+- [Installation](#installation)
+- [Running the Application](#running-the-application)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [License](#license)
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Search for books using an external API.
+- Add books to a personal bookshelf.
+- Store bookshelf data in local storage.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Screenshots
 
-### `npm test`
+![Screenshot](https://github.com/bhaskarpandey1234/Personal-BookShelf/assets/137864732/1e001886-af36-4796-9f14-fe0cbdcf4d3f)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Screenshot](https://github.com/bhaskarpandey1234/Personal-BookShelf/assets/137864732/c232c8d1-0928-4154-81fa-82d23d1d2ee5)
 
-### `npm run build`
+![Screenshot](https://github.com/bhaskarpandey1234/Personal-BookShelf/assets/137864732/36a8c715-bb6e-4c12-b1d2-bdf3c264f3a8)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Screenshot](https://github.com/bhaskarpandey1234/Personal-BookShelf/assets/137864732/1bce202c-a20f-4460-abb2-9219dd6ef598)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Screenshot](https://github.com/bhaskarpandey1234/Personal-BookShelf/assets/137864732/b5c720f9-a5a3-412f-ac32-1b5ba5c76b5a)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Screenshot](https://github.com/bhaskarpandey1234/Personal-BookShelf/assets/137864732/0779c2a1-7951-4134-bdc1-b80ac9e6d285)
 
-### `npm run eject`
+![Screenshot](https://github.com/bhaskarpandey1234/Personal-BookShelf/assets/137864732/b7fb73ed-8772-4c32-b864-7df3fc3ac01c)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Installation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Follow these steps to set up the project locally:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/your-username/your-repository-name.git
+    ```
 
-## Learn More
+2. **Navigate to the project directory:**
+    ```bash
+    cd your-repository-name
+    ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. **Install dependencies:**
+    ```bash
+    npm install
+    ```
+    This command will install all the necessary packages required to run the application.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Running the Application
 
-### Code Splitting
+Follow these steps to run the application on your local machine:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. **Start the development server:**
+    ```bash
+    npm start
+    ```
+    This command will start the React development server. By default, the application should be accessible at `http://localhost:3000`.
 
-### Analyzing the Bundle Size
+2. **Access the application:**
+    Open your browser and navigate to `http://localhost:3000` to see the application in action.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+3. **Build the application for production:**
+    If you want to create a production build of the application, use the following command:
+    ```bash
+    npm run build
+    ```
+    This command will create an optimized build of your application in the `build` directory.
 
-### Making a Progressive Web App
+## Technologies Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- React
+- JavaScript (ES6+)
+- CSS
+- API Integration
+- Local Storage
 
-### Advanced Configuration
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Contributions are welcome! Please read the [CONTRIBUTING.md](CONTRIBUTING.md) for details on the code of conduct and the process for submitting pull requests.
 
-### Deployment
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
